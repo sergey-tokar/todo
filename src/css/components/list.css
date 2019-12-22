@@ -1,0 +1,18 @@
+.list {
+}
+
+.list_filters {
+  margin-bottom: 10px;
+}
+
+.list_filters > * {
+  margin-right: 10px;
+}
+
+.list_filters > *.active {
+  color: var(--color-primary) !important;
+}
+
+.list_items {
+
+}

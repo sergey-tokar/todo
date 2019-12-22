@@ -1,0 +1,12 @@
+.input-group {
+  display: flex;
+  margin-bottom: 10px;
+}
+
+.input-group_input {
+  flex: 1;
+}
+
+.input-group_button {
+  margin-left: 5px;
+}

@@ -1,0 +1,87 @@
+body {
+  --color-text: #666;
+  --color-backround: white;
+  --color-primary: #4287f5;
+  --color-border: #cdcdcd;
+  --color-in-progress: #d7f5de;
+}
+
+body.dark {
+  --color-backround: #333;
+  --color-text: #eee;
+  --color-in-progress: #20962f;
+}
+
+
+body.epileptic {
+  animation: epileptic-background .5s ease infinite;
+}
+
+@keyframes epileptic-background {
+  0% {
+    --color-backround: red;
+    --color-text: white;
+    --color-in-progress: #20962f;
+    --color-border: #cdcdcd;
+  }
+  10% {
+    --color-backround: green;
+    --color-text: white;
+    --color-in-progress: blue;
+    --color-border: #cdcdcd;
+  }
+  20% {
+    --color-backround: blue;
+    --color-text: white;
+    --color-in-progress: #20962f;
+    --color-border: #cdcdcd;
+  }
+  30% {
+    --color-backround: yellow;
+    --color-text: black;
+    --color-in-progress: #75ffaf;
+    --color-border: black;
+  }
+  40% {
+    --color-backround: white;
+    --color-text: black;
+    --color-in-progress: #75ffaf;
+    --color-border: #cdcdcd;
+  }
+  50% {
+    --color-backround: purple;
+    --color-text: white;
+    --color-in-progress: #20962f;
+    --color-border: white;
+  }
+  60% {
+    --color-backround: pink;
+    --color-text: black;
+    --color-in-progress: #75ffaf;
+    --color-border: red;
+  }
+  70% {
+    --color-backround: darkgray;
+    --color-text: black;
+    --color-in-progress: #75ffaf;
+    --color-border: black;
+  }
+  80% {
+    --color-backround: orange;
+    --color-text: white;
+    --color-in-progress: #20962f;
+    --color-border: black;
+  }
+  90% {
+    --color-backround: aqua;
+    --color-text: black;
+    --color-in-progress: #75ffaf;
+    --color-border: black;
+  }
+  100% {
+    --color-backround: red;
+    --color-text: white;
+    --color-in-progress: #20962f;
+    --color-border: #cdcdcd;
+  }
+}
